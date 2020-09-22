@@ -1,0 +1,80 @@
+<list>
+  <com.bc.Customer>
+    <customerCode>1FIFw</customerCode>
+    <customerType>P</customerType>
+    <customerName>Bosco and Sons</customerName>
+    <primaryContactCode>8093a</primaryContactCode>
+    <address>
+      <street>5 Kipling Place</street>
+      <city>Brooklyn</city>
+      <state>NY</state>
+      <zip>11254</zip>
+      <country>USA</country>
+    </address>
+  </com.bc.Customer>
+  <com.bc.Customer>
+    <customerCode>0JDnt</customerCode>
+    <customerType>B</customerType>
+    <customerName>Schimmel LLC</customerName>
+    <primaryContactCode>cc66c</primaryContactCode>
+    <address>
+      <street>38814 Dovetail Plaza</street>
+      <city>Fairbanks</city>
+      <state>AK</state>
+      <zip>99709</zip>
+      <country>USA</country>
+    </address>
+  </com.bc.Customer>
+  <com.bc.Customer>
+    <customerCode>5ETr5</customerCode>
+    <customerType>B</customerType>
+    <customerName>&quot;Gibson, Muller and Wunsch&quot;</customerName>
+    <primaryContactCode>3713</primaryContactCode>
+    <address>
+      <street>6607 Dexter Trail</street>
+      <city>Los Angeles</city>
+      <state>CA</state>
+      <zip>90045</zip>
+      <country>USA</country>
+    </address>
+  </com.bc.Customer>
+  <com.bc.Customer>
+    <customerCode>0GVuw</customerCode>
+    <customerType>P</customerType>
+    <customerName>&quot;Beer, Schmeler and Ullrich&quot;</customerName>
+    <primaryContactCode>ad9c2</primaryContactCode>
+    <address>
+      <street>295 Bluejay Alley</street>
+      <city>Buffalo</city>
+      <state>NY</state>
+      <zip>14220</zip>
+      <country>USA</country>
+    </address>
+  </com.bc.Customer>
+  <com.bc.Customer>
+    <customerCode>0FKDl</customerCode>
+    <customerType>B</customerType>
+    <customerName>Mante-Jones</customerName>
+    <primaryContactCode>e8822</primaryContactCode>
+    <address>
+      <street>9 East Circle</street>
+      <city>Modesto</city>
+      <state>CA</state>
+      <zip>95354</zip>
+      <country>USA</country>
+    </address>
+  </com.bc.Customer>
+  <com.bc.Customer>
+    <customerCode>46IAe</customerCode>
+    <customerType>P</customerType>
+    <customerName>Botsford and Sons</customerName>
+    <primaryContactCode>62319</primaryContactCode>
+    <address>
+      <street>4189 Vidon Place</street>
+      <city>Wichita Falls</city>
+      <state>TX</state>
+      <zip>76305</zip>
+      <country>USA</country>
+    </address>
+  </com.bc.Customer>
+</list>

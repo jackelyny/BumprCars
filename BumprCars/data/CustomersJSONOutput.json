@@ -1,0 +1,80 @@
+[
+  {
+    "customerCode": "1FIFw",
+    "customerType": "P",
+    "customerName": "Bosco and Sons",
+    "primaryContactCode": "8093a",
+    "address": {
+      "street": "5 Kipling Place",
+      "city": "Brooklyn",
+      "state": "NY",
+      "zip": "11254",
+      "country": "USA"
+    }
+  },
+  {
+    "customerCode": "0JDnt",
+    "customerType": "B",
+    "customerName": "Schimmel LLC",
+    "primaryContactCode": "cc66c",
+    "address": {
+      "street": "38814 Dovetail Plaza",
+      "city": "Fairbanks",
+      "state": "AK",
+      "zip": "99709",
+      "country": "USA"
+    }
+  },
+  {
+    "customerCode": "5ETr5",
+    "customerType": "B",
+    "customerName": "\"Gibson, Muller and Wunsch\"",
+    "primaryContactCode": "3713",
+    "address": {
+      "street": "6607 Dexter Trail",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90045",
+      "country": "USA"
+    }
+  },
+  {
+    "customerCode": "0GVuw",
+    "customerType": "P",
+    "customerName": "\"Beer, Schmeler and Ullrich\"",
+    "primaryContactCode": "ad9c2",
+    "address": {
+      "street": "295 Bluejay Alley",
+      "city": "Buffalo",
+      "state": "NY",
+      "zip": "14220",
+      "country": "USA"
+    }
+  },
+  {
+    "customerCode": "0FKDl",
+    "customerType": "B",
+    "customerName": "Mante-Jones",
+    "primaryContactCode": "e8822",
+    "address": {
+      "street": "9 East Circle",
+      "city": "Modesto",
+      "state": "CA",
+      "zip": "95354",
+      "country": "USA"
+    }
+  },
+  {
+    "customerCode": "46IAe",
+    "customerType": "P",
+    "customerName": "Botsford and Sons",
+    "primaryContactCode": "62319",
+    "address": {
+      "street": "4189 Vidon Place",
+      "city": "Wichita Falls",
+      "state": "TX",
+      "zip": "76305",
+      "country": "USA"
+    }
+  }
+]

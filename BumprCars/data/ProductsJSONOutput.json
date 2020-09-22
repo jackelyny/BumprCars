@@ -1,0 +1,56 @@
+[
+  {
+    "partsCost": 250.0,
+    "hourlyLaborCost": 65.0,
+    "productCode": "3NTw3",
+    "productType": "F",
+    "productLabel": "Emard and Sons"
+  },
+  {
+    "unitCost": 5.7,
+    "productCode": "3YDjnwe4",
+    "productType": "C",
+    "productLabel": "Abernathy Group"
+  },
+  {
+    "dailyCost": 35.2,
+    "deposit": 600.0,
+    "cleaningFee": 42.5,
+    "productCode": "asf9WI4v",
+    "productType": "R",
+    "productLabel": "Labadie-Cole"
+  },
+  {
+    "costPerMile": 7.2,
+    "productCode": "5KIpw43",
+    "productType": "T",
+    "productLabel": "Zboncak-Gleason"
+  },
+  {
+    "unitCost": 6.25,
+    "productCode": "12Lhg6771sa",
+    "productType": "C",
+    "productLabel": "Schneider Inc"
+  },
+  {
+    "dailyCost": 35.2,
+    "deposit": 600.0,
+    "cleaningFee": 42.5,
+    "productCode": "30UHnqa",
+    "productType": "R",
+    "productLabel": "Hoeger LLC"
+  },
+  {
+    "partsCost": 540.0,
+    "hourlyLaborCost": 85.0,
+    "productCode": "4RAUz",
+    "productType": "F",
+    "productLabel": "Pouros Inc"
+  },
+  {
+    "costPerMile": 5.95,
+    "productCode": "0FKDl1a",
+    "productType": "T",
+    "productLabel": "Goyette Group"
+  }
+]

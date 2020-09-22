@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<persons>
+<person>
+  <code>abc2</code>
+  <firstName> Wiktoria</firstName>
+  <lastName>Medrano</lastName>
+  <Address>
+    <street>1025 S Street st.</street>
+    <city>Chichago</city>
+    <state>IL</state>
+    <zip>60613</zip>
+    <country>USA</country>
+  </Address>
+  <emails>
+    <string>therealwiki@gmail.com</string>
+    <string>wiktoria.m@yahoo.com</string>
+  </emails>
+</person>
+<person>
+  <code>biz45</code>
+  <firstName> Fenton</firstName>
+  <lastName>Hart</lastName>
+  <Address>
+    <street>1 Wall Street</street>
+    <city>New York</city>
+    <state>NY</state>
+    <zip>10005-0012</zip>
+    <country>USA</country>
+  </Address>
+  <emails>
+    <string>fentony@windstream.net</string>
+  </emails>
+</person>
+<person>
+  <code>zyx321</code>
+  <firstName> Ayaana</firstName>
+  <lastName>Dolan</lastName>
+  <Address>
+    <street>23450 Cabo San Lucas</street>
+    <city> Los Cabos</city>
+    <state> BCS</state>
+    <zip></zip>
+    <country> Mexico</country>
+  </Address>
+  <emails>
+    <string></string>
+  </emails>
+</person>
+<person>
+  <code>j3bdl5</code>
+  <firstName> Anthony</firstName>
+  <lastName>Salazar</lastName>
+  <Address>
+    <street>6700 Vine St</street>
+    <city>Lincoln</city>
+    <state>NE</state>
+    <zip>68505</zip>
+    <country>USA</country>
+  </Address>
+  <emails>
+    <string>slitherysalazar@hotmail.com</string>
+  </emails>
+</person>
+<person>
+  <code>lejnr4</code>
+  <firstName> Kenan</firstName>
+  <lastName>Spooner</lastName>
+  <Address>
+    <street>123 N 1st Street</street>
+    <city>Compton</city>
+    <state>CA</state>
+    <zip>90210</zip>
+    <country>USA</country>
+  </Address>
+  <emails>
+    <string>kspoons@emailservice.domain</string>
+    <string>thespoonman@soundgarden.com</string>
+  </emails>
+</person>
+<person>
+  <code>zvlnkd</code>
+  <firstName> Alba</firstName>
+  <lastName>Vang</lastName>
+  <Address>
+    <street>521 Adam Street</street>
+    <city>Omaha</city>
+    <state>NE</state>
+    <zip>68471</zip>
+    <country>USA</country>
+  </Address>
+  <emails>
+    <string>av1834@hotmail.com</string>
+  </emails>
+</person>
+<person>
+  <code>zdvker6u</code>
+  <firstName> Terry</firstName>
+  <lastName>Hayward</lastName>
+  <Address>
+    <street>321 Lemon Street</street>
+    <city>New York</city>
+    <state>NY</state>
+    <zip>10012</zip>
+    <country>USA</country>
+  </Address>
+  <emails>
+    <string></string>
+  </emails>
+</person>
+<person>
+  <code>SKVUZH</code>
+  <firstName> Isadora</firstName>
+  <lastName>Hicks</lastName>
+  <Address>
+    <street>142 Drive</street>
+    <city> Shanghai</city>
+    <state></state>
+    <zip>200012</zip>
+    <country>China</country>
+  </Address>
+  <emails>
+    <string>ihicks@shu.edu.cn</string>
+  </emails>
+</person>
+<person>
+  <code>123a</code>
+  <firstName> Petra</firstName>
+  <lastName>Battle</lastName>
+  <Address>
+    <street>1 Blue Jays Way</street>
+    <city> Toronto</city>
+    <state> ON</state>
+    <zip> M5V 1J1</zip>
+    <country> Canada</country>
+  </Address>
+  <emails>
+    <string>danextpm@canada.gov</string>
+  </emails>
+</person>
+<person>
+  <code>354fgb</code>
+  <firstName> Darci</firstName>
+  <lastName>Burns</lastName>
+  <Address>
+    <street>1017 BlueJay Way</street>
+    <city> London</city>
+    <state> DA</state>
+    <zip> 070708</zip>
+    <country> England</country>
+  </Address>
+  <emails/>
+</person>
+</persons>

@@ -1,0 +1,89 @@
+<list>
+  <com.bc.Person>
+    <personCode>ad9c2</personCode>
+    <lastName>Assiratti</lastName>
+    <firstName>Eleen</firstName>
+    <address>
+      <street>67556 Warrior Park</street>
+      <city>Herndon</city>
+      <state>VA</state>
+      <zip>22070</zip>
+      <country>USA</country>
+    </address>
+    <email>
+      <string>eassiratti0@cargocollective.com</string>
+      <string>dwattam0@goo.ne.jp</string>
+      <string>dwattam0@dailymotion.com</string>
+      <string>pknutton2@creativecommons.org</string>
+      <string>pknutton2@hubpages.com</string>
+      <string>pknutton2@google.co.jp</string>
+      <string></string>
+      <string>ksally4@wikia.com</string>
+    </email>
+  </com.bc.Person>
+  <com.bc.Person>
+    <personCode>8093a</personCode>
+    <lastName>Wattam</lastName>
+    <firstName>Doralynn</firstName>
+    <address>
+      <street>9 Blue Bill Park Place</street>
+      <city>Des Moines</city>
+      <state>IA</state>
+      <zip>50362</zip>
+      <country>USA</country>
+    </address>
+    <email reference="../../com.bc.Person/email"/>
+  </com.bc.Person>
+  <com.bc.Person>
+    <personCode>e8822</personCode>
+    <lastName>Knutton</lastName>
+    <firstName>Phip</firstName>
+    <address>
+      <street>80362 Erie Hill</street>
+      <city></city>
+      <state>TN</state>
+      <zip>37210</zip>
+      <country>USA</country>
+    </address>
+    <email reference="../../com.bc.Person/email"/>
+  </com.bc.Person>
+  <com.bc.Person>
+    <personCode>62319</personCode>
+    <lastName>Winspare</lastName>
+    <firstName>Ninnette</firstName>
+    <address>
+      <street>464 Carberry Avenue</street>
+      <city>Atlanta</city>
+      <state>GA</state>
+      <zip>30323</zip>
+      <country>USA</country>
+    </address>
+    <email reference="../../com.bc.Person/email"/>
+  </com.bc.Person>
+  <com.bc.Person>
+    <personCode>cc66c</personCode>
+    <lastName>Sally</lastName>
+    <firstName>Khalil</firstName>
+    <address>
+      <street>64 Meadow Ridge Road</street>
+      <city>New York City</city>
+      <state>NY</state>
+      <zip>10004</zip>
+      <country>USA</country>
+    </address>
+    <email reference="../../com.bc.Person/email"/>
+  </com.bc.Person>
+  <com.bc.Person>
+    <personCode>3713</personCode>
+    <lastName>Brumham</lastName>
+    <firstName>Rollo</firstName>
+    <address>
+      <street>19357 Charing Cross Terrace</street>
+      <city>Fort Lauderdale</city>
+      <state></state>
+      <zip>33336</zip>
+      <country>USA</country>
+    </address>
+    <email reference="../../com.bc.Person/email"/>
+  </com.bc.Person>
+</list>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<product>
+  <code>qwertyuiop</code>
+  <type>R</type>
+  <label>2007 Ford Crown Victoria</label>
+  <dailyCost>50.75</dailyCost>
+  <deposit>200.0</deposit>
+  <cleaningFee>25.39</cleaningFee>
+</product>
+<product>
+  <code>b4z1ng4</code>
+  <type>F</type>
+  <label>Bumper Replacement</label>
+  <partsCost>100.0</partsCost>
+  <laborRate>75.0</laborRate>
+</product>
+<product>
+  <code>k04l4</code>
+  <type>C</type>
+  <label>12-oz Coffee</label>
+  <cost>4.75</cost>
+</product>
+<product>
+  <code>sievub</code>
+  <type>T</type>
+  <label>Tow &lt; 10 Miles</label>
+  <costPerMile>6.0</costPerMile>
+</product>
+<product>
+  <code>yuasi</code>
+  <type>R</type>
+  <label>Tesla Cybertruck</label>
+  <dailyCost>1000.0</dailyCost>
+  <deposit>5000.0</deposit>
+  <cleaningFee>50.0</cleaningFee>
+</product>
+<product>
+  <code>t0m03</code>
+  <type>F</type>
+  <label>Full Wheel Replacement</label>
+  <partsCost>800.0</partsCost>
+  <laborRate>25.0</laborRate>
+</product>
+<product>
+  <code>kvnjgbf5</code>
+  <type>C</type>
+  <label>Large &quot;Homemade&quot; Raisin Cookie</label>
+  <cost>10.0</cost>
+</product>
+<product>
+  <code>ugis43</code>
+  <type>T</type>
+  <label>Tow &gt; 10 miles</label>
+  <costPerMile>4.0</costPerMile>
+</product>

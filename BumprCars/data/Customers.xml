@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<customers>
+<customer>
+  <code>lsvntk</code>
+  <type>B</type>
+  <name>State of Nebraska</name>
+  <primaryContact>
+    <code>123a</code>
+    <firstName> Petra</firstName>
+    <lastName>Battle</lastName>
+    <Address>
+      <street>1 Blue Jays Way</street>
+      <city> Toronto</city>
+      <state> ON</state>
+      <zip> M5V 1J1</zip>
+      <country> Canada</country>
+    </Address>
+    <emails>
+      <string>danextpm@canada.gov</string>
+    </emails>
+  </primaryContact>
+  <address>
+    <street>100 W Fake Street</street>
+    <city>Albaquerque</city>
+    <state>NM</state>
+    <zip>80706</zip>
+    <country>USA</country>
+  </address>
+  <taxRate>0.0425</taxRate>
+</customer>
+<customer>
+  <code>dvkh</code>
+  <type>P</type>
+  <name>Wacky Wally&apos;s Used Cars</name>
+  <primaryContact>
+    <code>zyx321</code>
+    <firstName> Ayaana</firstName>
+    <lastName>Dolan</lastName>
+    <Address>
+      <street>23450 Cabo San Lucas</street>
+      <city> Los Cabos</city>
+      <state> BCS</state>
+      <zip></zip>
+      <country> Mexico</country>
+    </Address>
+    <emails>
+      <string></string>
+    </emails>
+  </primaryContact>
+  <address>
+    <street>123 Madison Avenue</street>
+    <city> Bodega</city>
+    <state> NL</state>
+    <zip></zip>
+    <country>CUBA</country>
+  </address>
+  <taxRate>0.08</taxRate>
+</customer>
+<customer>
+  <code>l0000000000ngc0d3</code>
+  <type>B</type>
+  <name>Demolition Derby</name>
+  <primaryContact>
+    <code>lejnr4</code>
+    <firstName> Kenan</firstName>
+    <lastName>Spooner</lastName>
+    <Address>
+      <street>123 N 1st Street</street>
+      <city>Compton</city>
+      <state>CA</state>
+      <zip>90210</zip>
+      <country>USA</country>
+    </Address>
+    <emails>
+      <string>kspoons@emailservice.domain</string>
+      <string>thespoonman@soundgarden.com</string>
+    </emails>
+  </primaryContact>
+  <address>
+    <street>126-01 Roosevelt Ave</street>
+    <city> Flushing</city>
+    <state> NY</state>
+    <zip>11368</zip>
+    <country>USA</country>
+  </address>
+  <taxRate>0.0425</taxRate>
+</customer>
+<customer>
+  <code>asdf419</code>
+  <type>P</type>
+  <name>Fenton Industries</name>
+  <primaryContact>
+    <code>biz45</code>
+    <firstName> Fenton</firstName>
+    <lastName>Hart</lastName>
+    <Address>
+      <street>1 Wall Street</street>
+      <city>New York</city>
+      <state>NY</state>
+      <zip>10005-0012</zip>
+      <country>USA</country>
+    </Address>
+    <emails>
+      <string>fentony@windstream.net</string>
+    </emails>
+  </primaryContact>
+  <address>
+    <street>1060 West Addison Street</street>
+    <city>Chicago</city>
+    <state>IL</state>
+    <zip>60613</zip>
+    <country>USA</country>
+  </address>
+  <taxRate>0.08</taxRate>
+</customer>
+<customer>
+  <code>421asdf</code>
+  <type>B</type>
+  <name>Foundation for the Arts</name>
+  <primaryContact>
+    <code>biz45</code>
+    <firstName> Fenton</firstName>
+    <lastName>Hart</lastName>
+    <Address>
+      <street>1 Wall Street</street>
+      <city>New York</city>
+      <state>NY</state>
+      <zip>10005-0012</zip>
+      <country>USA</country>
+    </Address>
+    <emails>
+      <string>fentony@windstream.net</string>
+    </emails>
+  </primaryContact>
+  <address>
+    <street>1 MetLife Stadium Dr</street>
+    <city> East Rutherford</city>
+    <state> NJ</state>
+    <zip>07073</zip>
+    <country>USA</country>
+  </address>
+  <taxRate>0.0425</taxRate>
+</customer>
+<customer>
+  <code>avnkbkjds</code>
+  <type>P</type>
+  <name>Juno Stephenson</name>
+  <primaryContact>
+    <code>SKVUZH</code>
+    <firstName> Isadora</firstName>
+    <lastName>Hicks</lastName>
+    <Address>
+      <street>142 Drive</street>
+      <city> Shanghai</city>
+      <state></state>
+      <zip>200012</zip>
+      <country>China</country>
+    </Address>
+    <emails>
+      <string>ihicks@shu.edu.cn</string>
+    </emails>
+  </primaryContact>
+  <address>
+    <street>123 N 1st Street</street>
+    <city>Compton</city>
+    <state>CA</state>
+    <zip>90210</zip>
+    <country>USA</country>
+  </address>
+  <taxRate>0.08</taxRate>
+</customer>
+</customers>

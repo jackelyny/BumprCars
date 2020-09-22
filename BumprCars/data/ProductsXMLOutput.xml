@@ -1,0 +1,56 @@
+<list>
+  <com.bc.Repair>
+    <productCode>3NTw3</productCode>
+    <productType>F</productType>
+    <productLabel>Emard and Sons</productLabel>
+    <partsCost>250.0</partsCost>
+    <hourlyLaborCost>65.0</hourlyLaborCost>
+  </com.bc.Repair>
+  <com.bc.Concession>
+    <productCode>3YDjnwe4</productCode>
+    <productType>C</productType>
+    <productLabel>Abernathy Group</productLabel>
+    <unitCost>5.7</unitCost>
+  </com.bc.Concession>
+  <com.bc.Rentals>
+    <productCode>asf9WI4v</productCode>
+    <productType>R</productType>
+    <productLabel>Labadie-Cole</productLabel>
+    <dailyCost>35.2</dailyCost>
+    <deposit>600.0</deposit>
+    <cleaningFee>42.5</cleaningFee>
+  </com.bc.Rentals>
+  <com.bc.Towing>
+    <productCode>5KIpw43</productCode>
+    <productType>T</productType>
+    <productLabel>Zboncak-Gleason</productLabel>
+    <costPerMile>7.2</costPerMile>
+  </com.bc.Towing>
+  <com.bc.Concession>
+    <productCode>12Lhg6771sa</productCode>
+    <productType>C</productType>
+    <productLabel>Schneider Inc</productLabel>
+    <unitCost>6.25</unitCost>
+  </com.bc.Concession>
+  <com.bc.Rentals>
+    <productCode>30UHnqa</productCode>
+    <productType>R</productType>
+    <productLabel>Hoeger LLC</productLabel>
+    <dailyCost>35.2</dailyCost>
+    <deposit>600.0</deposit>
+    <cleaningFee>42.5</cleaningFee>
+  </com.bc.Rentals>
+  <com.bc.Repair>
+    <productCode>4RAUz</productCode>
+    <productType>F</productType>
+    <productLabel>Pouros Inc</productLabel>
+    <partsCost>540.0</partsCost>
+    <hourlyLaborCost>85.0</hourlyLaborCost>
+  </com.bc.Repair>
+  <com.bc.Towing>
+    <productCode>0FKDl1a</productCode>
+    <productType>T</productType>
+    <productLabel>Goyette Group</productLabel>
+    <costPerMile>5.95</costPerMile>
+  </com.bc.Towing>
+</list>
