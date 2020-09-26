@@ -10,7 +10,9 @@ public class Product {
 	public String productCode;
 	public String productType;
 	public String productLabel;
-	
+	public Double value; 
+	public String associatedRepair;
+
 	public Product(String productCode, String productType, String productLabel) {
 		super();
 		this.productCode = productCode;
@@ -40,6 +42,22 @@ public class Product {
 
 	public void setProductLabel(String productLabel) {
 		this.productLabel = productLabel;
+	}
+	
+	public double getValue() {
+		return value;
+	}
+	
+	public void setValue(Double value) {
+		this.value = value;
+	}
+	
+	public String getAssociatedRepair() {
+		return associatedRepair;
+	}
+
+	public void setAssociatedRepair(String associatedRepair) {
+		this.associatedRepair = associatedRepair;
 	}
 	
 }

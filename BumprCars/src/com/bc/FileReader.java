@@ -3,11 +3,14 @@ package com.bc;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class FileReader {
 	
-	public ArrayList<Person> readPerson() {
+	public HashMap<String, Person> readPerson() {
+		
+		HashMap<String, Person> personMap = new HashMap<>();
 		
 		ArrayList<Person> personList = new ArrayList<>();
 		ArrayList<String> emailList = new ArrayList<String>();
@@ -36,12 +39,15 @@ public class FileReader {
 			}
 			Person p = new Person(code, lastName, firstName, addr, emailList);
 			personList.add(p);
+			personMap.put(code, p);
 		}
 		s.close();
-		return personList;
+		return personMap;
 	}
 	
-	public ArrayList<Customer> readCustomer() {
+	public HashMap<String, Customer> readCustomer(ArrayList<Person> personList) {
+		
+		HashMap<String, Customer> customerMap = new HashMap<>();
 		
 		ArrayList<Customer> customerList = new ArrayList<>();
 		
@@ -61,14 +67,23 @@ public class FileReader {
 			String primaryContact = tokens[3];
 			String address[] = tokens[4].split(",");
 			Address addr = new Address(address[0], address[1], address[2], address[3], address[4]);
-			Customer c = new Customer(customerCode, customerType, customerName, primaryContact, addr);
+			Person code = null;
+			for(Person x : personList) {
+				if(x.getPersonCode() == primaryContact) {
+					code = x;
+				}
+			}
+			Customer c = new Customer(customerCode, customerType, customerName, code, addr);
 			customerList.add(c);
+			customerMap.put(customerCode, c);
 		}
 		s.close();
-		return customerList;
+		return customerMap;
 	}
 	
-	public ArrayList<Product> readProduct() {
+	public HashMap<String, Product> readProduct() {
+		
+		HashMap<String, Product> productMap = new HashMap<>();
 		
 		ArrayList<Product> productList = new ArrayList<>();
 		
@@ -110,8 +125,48 @@ public class FileReader {
 				p = new Rentals(productCode, productType, productLabel, dailyCost, deposit, cleaningFee);
 			}
 			productList.add(p);
+			productMap.put(productCode, p);
 		}
 		s.close();
-		return productList;
+		return productMap;
+	}
+	
+	public ArrayList<Invoices> readInvoices(HashMap<String, Person> personMap, HashMap<String, Customer> customerMap, HashMap<String, Product> productMap) {
+		
+		ArrayList<Invoices> invoice = new ArrayList<>();
+		
+		Scanner s = null;
+		try {
+			s = new Scanner(new File("data/Invoices.dat"));
+		} catch (FileNotFoundException e) {
+			throw new RuntimeException(e);
+		}
+		s.nextLine();
+		
+		while(s.hasNextLine()) {
+			ArrayList<Product> productList = new ArrayList<>();
+			String tokens[] = s.nextLine().split(";", -1);
+			String invoiceCode = tokens[0];
+			String ownerCode = tokens[1];
+			String customerCode = tokens[2];
+			String product[] = tokens[3].split(",");
+			double value = 0;
+			String productCode = null;
+			for(String x : product) {
+				String split[] = x.split(":");
+				productCode = split[0];
+				value = Double.parseDouble(split[1]);
+				if(split.length > 2) {
+					String repairCode = split[2];
+					productMap.get(productCode).setValue(value);
+					productMap.get(productCode).setAssociatedRepair(repairCode);
+					productList.add(productMap.get(productCode));
+				}
+			}
+			Invoices i = new Invoices(invoiceCode, personMap.get(ownerCode), customerMap.get(customerCode), productList);
+			invoice.add(i);
+		}
+		s.close();
+		return invoice;
 	}
 }

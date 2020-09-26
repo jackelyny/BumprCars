@@ -10,10 +10,10 @@ public class Customer {
 	public String customerCode;
 	private String customerType;
 	private String customerName;
-	private String primaryContactCode;
+	private Person primaryContactCode;
 	private Address address;
 	
-	public Customer(String customerCode, String customerType, String customerName, String primaryContactCode,
+	public Customer(String customerCode, String customerType, String customerName, Person primaryContactCode,
 			Address address) {
 		super();
 		this.customerCode = customerCode;
@@ -47,11 +47,11 @@ public class Customer {
 		this.customerName = customerName;
 	}
 
-	public String getPrimaryContactCode() {
+	public Person getPrimaryContactCode() {
 		return primaryContactCode;
 	}
 
-	public void setPrimaryContactCode(String primaryContactCode) {
+	public void setPrimaryContactCode(Person primaryContactCode) {
 		this.primaryContactCode = primaryContactCode;
 	}
 
