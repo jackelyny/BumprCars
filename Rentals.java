@@ -1,4 +1,5 @@
 /*
+ * Author: Jackelyn Yii, Chase Barnts
  * A subclass of Product. The constructor has a super function 
  * which calls in the constructor from the Product class. 
  */
@@ -9,13 +10,21 @@ public class Rentals extends Product {
 	public Double dailyCost;
 	public Double deposit;
 	public Double cleaningFee;
-	
+	public Double daysRented;
+
 	public Rentals(String productCode, String productType, String productLabel, Double dailyCost, Double deposit,
 			Double cleaningFee) {
 		super(productCode, productType, productLabel);
 		this.dailyCost = dailyCost;
 		this.deposit = deposit;
 		this.cleaningFee = cleaningFee;
+	}
+	
+	public Rentals(Rentals old) {
+		super(old.getProductCode(), old.getProductType(), old.getProductLabel());
+		this.dailyCost = old.getDailyCost();
+		this.deposit = old.getDeposit();
+		this.cleaningFee = old.getCleaningFee();
 	}
 
 	public Double getDailyCost() {
@@ -41,6 +50,20 @@ public class Rentals extends Product {
 	public void setCleaningFee(Double cleaningFee) {
 		this.cleaningFee = cleaningFee;
 	}
+
+	public Double getDaysRented() {
+		return daysRented;
+	}
+
+	public void setDaysRented(Double daysRented) {
+		this.daysRented = daysRented;
+	}
 	
+	public double getsubTotal() {
+		return (this.dailyCost * this.daysRented) - this.deposit + this.cleaningFee;
+	}
 	
+	public double getDiscount() {
+		return 0;
+	}
 }

@@ -1,4 +1,5 @@
 /**
+ * Author: Jackelyn Yii, Chase Barnts
  * This class handles all the information that has to do with the 
  * a person. The address is handled by the Address class. The emails are
  * put in an arraylist because some lines of information of a person 
