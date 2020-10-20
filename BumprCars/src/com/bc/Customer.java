@@ -1,4 +1,5 @@
 /*
+ * Author: Jackelyn Yii, Chase Barnts
  * This class has all the information about the customers. 
  * Similarly to the Person class, the address is handled 
  * by the Address class. 
@@ -63,6 +64,21 @@ public class Customer {
 		this.address = address;
 	}
 	
+	public double getTaxes() {
+		double tax = 0.0;
+		if(getCustomerType().equals("B")) {
+			tax = ((4.25 / 100));
+		} else if(getCustomerType().equals("P")) {
+			tax = ((8.0 / 100));
+		}
+		return tax;
+	}
 	
-	
+	public double getFee() {
+		double fee = 0.0;
+		if(getCustomerType().equals("B")) {
+			fee = 75.50;
+		}
+		return fee;
+	}
 }

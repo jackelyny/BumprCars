@@ -1,17 +1,16 @@
 /*
+ * Author: Jackelyn Yii, Chase Barnts
  * This class handles information for products. It is also a 
  * parent class to four sub classes. (Concession, Rentals, Repair,
  * and Towing)
  */
 package com.bc;
 
-public class Product {
+public abstract class Product {
 	
 	public String productCode;
 	public String productType;
 	public String productLabel;
-	public Double value; 
-	public String associatedRepair;
 
 	public Product(String productCode, String productType, String productLabel) {
 		super();
@@ -44,20 +43,7 @@ public class Product {
 		this.productLabel = productLabel;
 	}
 	
-	public double getValue() {
-		return value;
-	}
-	
-	public void setValue(Double value) {
-		this.value = value;
-	}
-	
-	public String getAssociatedRepair() {
-		return associatedRepair;
-	}
+	public abstract double getsubTotal();
+	public abstract double getDiscount();
 
-	public void setAssociatedRepair(String associatedRepair) {
-		this.associatedRepair = associatedRepair;
-	}
-	
 }
