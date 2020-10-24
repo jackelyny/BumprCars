@@ -1,5 +1,5 @@
 /*
- * Author: Jackelyn Yii, Chase Barnts
+ * Author: Jackelyn Yii
  * This is the main class that calls in array list of 
  * person customer and product from the read class. then
  * they are passed in the invoice array and reports

@@ -1,5 +1,5 @@
 /*
- * Authors: Jackelyn Yii and Chase Barnts
+ * Authors: Jackelyn Yii
  * The main method. It calls the read functions from FileReader
  * and set them to ArrayLists. Then, the XMLWriter and JSONWriter
  * functions are called and the ArrayLists are passed in. 

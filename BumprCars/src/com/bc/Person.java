@@ -1,5 +1,5 @@
 /**
- * Author: Jackelyn Yii, Chase Barnts
+ * Author: Jackelyn Yii
  * This class handles all the information that has to do with the 
  * a person. The address is handled by the Address class. The emails are
  * put in an arraylist because some lines of information of a person 
@@ -11,6 +11,7 @@ import java.util.ArrayList;
 
 public class Person {
 	
+	public Integer personId;
 	public String personCode;
 	private String lastName;
 	private String firstName;
@@ -24,6 +25,14 @@ public class Person {
 		this.firstName = firstName;
 		this.address = address;
 		this.email = email;
+	}
+
+	public Integer getPersonId() {
+		return personId;
+	}
+
+	public void setPersonId(Integer personId) {
+		this.personId = personId;
 	}
 
 	public String getPersonCode() {

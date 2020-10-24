@@ -1,5 +1,5 @@
 /*
- * Author: Jackelyn Yii, Chase Barnts
+ * Author: Jackelyn Yii
  * This class has all the information about the customers. 
  * Similarly to the Person class, the address is handled 
  * by the Address class. 

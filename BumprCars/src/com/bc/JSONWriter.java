@@ -1,4 +1,5 @@
 /*
+ * Author: Jackelyn Yii
  * A class that takes in ArrayList of Person, Customer and Product and
  * as a .dat file, converts it to JSON and outputs them. 
  */

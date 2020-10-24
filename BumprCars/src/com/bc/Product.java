@@ -1,5 +1,5 @@
 /*
- * Author: Jackelyn Yii, Chase Barnts
+ * Author: Jackelyn Yii
  * This class handles information for products. It is also a 
  * parent class to four sub classes. (Concession, Rentals, Repair,
  * and Towing)

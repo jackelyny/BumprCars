@@ -1,5 +1,5 @@
 /*
- * Author: Jackelyn Yii, Chase Barnts
+ * Author: Jackelyn Yii
  * A subclass of Product. The constructor has a super function 
  * which calls in the constructor from the Product class. 
  */

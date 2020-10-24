@@ -1,5 +1,5 @@
 /**
- * Author: Jackelyn Yii, Chase Barnts
+ * Author: Jackelyn Yii
  * This class handles all the information that has to do with the 
  * address of a person, including the constructor, getters and setters.
  */

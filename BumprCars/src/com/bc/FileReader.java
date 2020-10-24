@@ -1,5 +1,5 @@
 /*
- * Author: Jackelyn Yii, Chase Barnts
+ * Author: Jackelyn Yii
  * The file reader class reads in data files and assign each data to its objects
  */
 package com.bc;

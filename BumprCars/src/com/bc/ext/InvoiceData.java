@@ -199,7 +199,7 @@ public class InvoiceData {
       * @param quantity
       * @param repairCode
       */
-    public static void addConcession(String invoiceCode, String productCode, int quantity, String repairCode) {
+    public static void addConcessionToInvoice(String invoiceCode, String productCode, int quantity, String repairCode) {
     	/* TODO*/
     }
 	

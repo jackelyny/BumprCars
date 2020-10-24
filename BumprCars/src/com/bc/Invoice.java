@@ -1,5 +1,5 @@
 /*
- * Author: Jackelyn Yii, Chase Barnts
+ * Author: Jackelyn Yii
  * The invoice class handles all invoice data and has an array list of 
  * products that allows easy access to functions and onjects in the product 
  * class
