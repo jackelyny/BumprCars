@@ -27,7 +27,7 @@ public class PersonDatabase {
 			throw new RuntimeException(e);
 		}
 		
-		String query = "select e.email from PersonEmail e " + "where e.personId = ?;";
+		String query = "select e.email from PersonEmail e where e.personId = ?;";
 		java.sql.PreparedStatement ps = null;
 		ResultSet rs = null;
 		
@@ -154,7 +154,7 @@ public class PersonDatabase {
 			ps = connection.prepareStatement(query);
 			ps.setInt(1, personId);
 			rs = ps.executeQuery();
-			if(rs.next()) {
+			while(rs.next()) {
 				int id = rs.getInt("personId");
 				String code = rs.getString("personCode");
 				String lastName = rs.getString("lastName");
@@ -185,6 +185,57 @@ public class PersonDatabase {
 			throw new RuntimeException(e);
 		}
 		return person;
+	}
+	
+	public static int getPersonId(String personCode) {
+		
+		String DRIVER_CLASS = "com.mysql.jdbc.Driver";
+		try {
+			Class.forName(DRIVER_CLASS).getDeclaredConstructor().newInstance();
+		} catch(Exception e) {
+			throw new RuntimeException(e);
+		}
+
+		java.sql.Connection connection = null;
+		String url = "jdbc:mysql://cse.unl.edu/jyii";
+		String username = "jyii";
+		String password = "";
+		
+		try {
+			connection = DriverManager.getConnection(url, username, password);
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+		
+		String query = "select p.personId from Person p where p.personCode = ?;";
+		java.sql.PreparedStatement ps = null;
+		ResultSet rs = null;
+		int personId = 0;
+			
+		try {
+			ps = connection.prepareStatement(query);
+			ps.setString(1, personCode);
+			rs = ps.executeQuery();
+			while(rs.next()) {
+				personId = rs.getInt("personId");
+			}
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+		try {
+			if(rs != null && !rs.isClosed()) {
+				rs.close();
+			}
+			if(ps != null && !ps.isClosed()) {
+				ps.close();
+			}
+			if(connection != null && !connection.isClosed()) {
+				connection.close();
+			}
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+		return personId;
 	}
 
 }

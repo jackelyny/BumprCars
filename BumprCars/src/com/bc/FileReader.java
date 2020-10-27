@@ -180,7 +180,6 @@ public class FileReader {
 									if(pr.getProductCode().equals(split[2])) {
 										associatedRepair = (Repair) pr;
 										c.setAssociatedRepair(associatedRepair);
-										System.out.println(c.getAssociatedRepair());
 									}
 								}
 							}

@@ -135,5 +135,56 @@ public class CustomerDatabase {
 		
 		return c;
 	}
+	
+	public static int getCustomerId(String customerCode) {
+		
+		String DRIVER_CLASS = "com.mysql.jdbc.Driver";
+		try {
+			Class.forName(DRIVER_CLASS).getDeclaredConstructor().newInstance();
+		} catch(Exception e) {
+			throw new RuntimeException(e);
+		}
+
+		java.sql.Connection connection = null;
+		String url = "jdbc:mysql://cse.unl.edu/jyii";
+		String username = "jyii";
+		String password = "";
+		
+		try {
+			connection = DriverManager.getConnection(url, username, password);
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+		
+		String query = "select c.customerId from Customer c where c.customerCode = ?;";
+		java.sql.PreparedStatement ps = null;
+		ResultSet rs = null;
+		int customerId = 0;
+		
+		try {
+			ps = connection.prepareStatement(query);
+			ps.setString(1, customerCode);
+			rs = ps.executeQuery();
+			while(rs.next()) {
+				customerId = rs.getInt("customerId");
+			}
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+		try {
+			if(rs != null && !rs.isClosed()) {
+				rs.close();
+			}
+			if(ps != null && !ps.isClosed()) {
+				ps.close();
+			}
+			if(connection != null && !connection.isClosed()) {
+				connection.close();
+			}
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+		return customerId;
+	}
 
 }
